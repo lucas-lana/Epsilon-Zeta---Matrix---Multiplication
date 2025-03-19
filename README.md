@@ -8,7 +8,9 @@ O repositório também inclui três conjuntos de testes, cada um com matrizes de
 
 Dentre as quatro abordagens, a multiplicação de matrizes Epsilon destacou-se como a melhor em termos de utilização de cache (cache-references e cache-misses). Embora tenha demandado um uso mais intensivo do cache, ela conseguiu processar as informações com menor perda de desempenho no processador. Em segundo lugar, ficou a abordagem Zeta, seguida pelas outras duas (a baseada no repositório e a convencional). A Epsilon também se mostrou superior em relação ao número de ciclos (cycles) e ao tempo de execução (task-clock), enquanto a Zeta apresentou um menor número de instruções executadas (instructions), mas com um custo maior em ciclos.
 
-Os resultados demonstraram que o desenvolvimento e a aplicação dessas novas abordagens foram um sucesso. As evidências mostram que as novas técnicas superam a multiplicação convencional tanto na utilização eficiente de cache quanto na redução do número de instruções necessárias. Embora o método convencional utilize menos instruções, ele requer mais ciclos de processamento. Em geral, a abordagem convencional é eficaz para matrizes pequenas, mas, à medida que o tamanho da matriz aumenta, as implementações Epsilon e Zeta se mostram superiores, tanto em tempo de execução quanto em eficiência de ciclos. A Epsilon, em particular, destacou-se como a mais eficiente, mesmo com seu maior número de etapas.
+Os resultados demonstraram que o desenvolvimento e a aplicação dessas novas abordagens foram um sucesso. As evidências mostram que as novas técnicas superam a multiplicação convencional tanto na utilização eficiente de cache quanto na redução do número de instruções necessárias. Embora o método convencional utilize menos instruções, ele requer mais ciclos de processamento.
+
+Em geral, a abordagem convencional é eficaz para matrizes pequenas, mas, à medida que o tamanho da matriz aumenta, as implementações Epsilon e Zeta se mostram superiores, tanto em tempo de execução quanto em eficiência de ciclos. A Epsilon, em particular, destacou-se como a mais eficiente, mesmo com seu maior número de etapas.
 
 
 
