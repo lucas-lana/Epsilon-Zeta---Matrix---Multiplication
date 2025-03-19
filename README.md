@@ -9,3 +9,13 @@ O repositório também inclui três conjuntos de testes, cada um com matrizes de
 Dentre as quatro abordagens, a multiplicação de matrizes Epsilon destacou-se como a melhor em termos de utilização de cache (cache-references e cache-misses). Embora tenha demandado um uso mais intensivo do cache, ela conseguiu processar as informações com menor perda de desempenho no processador. Em segundo lugar, ficou a abordagem Zeta, seguida pelas outras duas (a baseada no repositório e a convencional). A Epsilon também se mostrou superior em relação ao número de ciclos (cycles) e ao tempo de execução (task-clock), enquanto a Zeta apresentou um menor número de instruções executadas (instructions), mas com um custo maior em ciclos.
 
 Os resultados demonstraram que o desenvolvimento e a aplicação dessas novas abordagens foram um sucesso. As evidências mostram que as novas técnicas superam a multiplicação convencional tanto na utilização eficiente de cache quanto na redução do número de instruções necessárias. Embora o método convencional utilize menos instruções, ele requer mais ciclos de processamento. Em geral, a abordagem convencional é eficaz para matrizes pequenas, mas, à medida que o tamanho da matriz aumenta, as implementações Epsilon e Zeta se mostram superiores, tanto em tempo de execução quanto em eficiência de ciclos. A Epsilon, em particular, destacou-se como a mais eficiente, mesmo com seu maior número de etapas
+
+
+
+
+![Convencional_Sum](https://github.com/user-attachments/assets/589f9135-8497-4914-918d-c0dbcfc3e7c3)
+![Zeta_Sum](https://github.com/user-attachments/assets/3ea3222d-2982-49ff-86d7-bc4fc01ed344)
+![Zeta_MUL_Matriz](https://github.com/user-attachments/assets/03d3d9c6-5996-4970-b305-2c55223fb46a)
+![MUL_Matriz](https://github.com/user-attachments/assets/65f46649-b866-4648-b416-53d7bd411ab8)
+![Epsilon_Sum](https://github.com/user-attachments/assets/94894ed5-22de-4a5c-9a1c-e30fa9211e86)
+![Epsilon_MUL_Matriz](https://github.com/user-attachments/assets/b73580e0-c834-445b-b6e1-4dc6eba55179)
