@@ -1,4 +1,4 @@
-# Multiplicação de Matriz Eficiente
+# Multiplicação de Matriz Epsilon e Zeta
 
 O objetivo deste repositório é propor uma solução simples, ainda que não completa ou definitiva, para a multiplicação de matrizes, buscando superar o método convencional em eficiência. Para isso, foram implementadas quatro abordagens distintas: a primeira é o método convencional; a segunda é baseada em um repositório inspirado em um artigo que demonstrava essa implementação; e as outras duas, chamadas Epsilon e Zeta, foram desenvolvidas por mim, com o intuito de explorar novas formas de realizar a multiplicação entre matrizes. Dessa forma, foram criadas novas operações que, ao final, são equivalentes à multiplicação tradicional de matrizes.
 
